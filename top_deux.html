@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site_anime.css">
+    <title>Mes Animes</title>
+</head>
+<body>
+    <header>
+        <h1>Mon Monde Animé</h1>
+    </header>
+
+    <section class="main-content">
+        <h2>Top 2</h2>
+        <p>A la deuxième place se trouvent ex æquo deux animes différents.<br>Le hasard fait bien les choses :')</p>
+        <div class="tab">
+            <button class="tablinks" onclick="openAnime(event, 'Mha')">My hero academia</button>
+            <button class="tablinks" onclick="openAnime(event, 'Vinland')">Vinland Saga</button>
+        </div>
+        <ul class="anime-list">
+            <div id="Mha" class="tabcontent">
+            <li class="anime">
+                <a href="https://fr.wikipedia.org/wiki/My_Hero_Academia"><img src="images/mha.webp" alt="My hero academia" ></a>
+                <h3>My Hero Academia</h3>
+                <p> My Hero Academia plonge les spectateurs dans un monde où la société est peuplée de personnes dotées de <span class = "genres">superpouvoirs</span> connus sous le nom d'Alters.
+                    L'histoire suit Izuku Midoriya, un jeune passionné par les héros malgré son absence de pouvoir. Cependant, après avoir rencontré son idole All Might, il hérite d'un Alter puissant et se voit offrir la chance d'intégrer l'académie prestigieuse U.A. pour héros.
+                    Au sein de cette institution, Izuku apprend à maîtriser ses compétences exceptionnelles, tout en nouant des amitiés avec d'autres étudiants aux pouvoirs divers.</p>
+                    
+                <p>La série explore les défis auxquels sont confrontés les futurs héros, que ce soit dans le cadre de leur apprentissage ou lorsqu'ils affrontent des antagonistes redoutables.
+                    My Hero Academia excelle dans son équilibre entre l'<span class = "genres">action</span> palpitante, la <span class = "genres">comédie</span> légère et les moments <span class = "genres">émotionnels</span> poignants.
+                    Les personnages sont diversifiés et bien développés, chacun apportant une contribution unique à l'histoire. Les thèmes de l'<span class = "themes">héroïsme</span>, de l'<span class = "themes">amitié</span>, de la <span class = "themes">persévérance</span> et de l'<span class = "themes">acceptation de soi</span> sont au cœur de cette aventure.</p>
+                    
+                <p>La série a rapidement acquis une immense popularité tant au Japon qu'à l'international, devenant un phénomène de la culture populaire grâce à son récit engageant, son animation de qualité et son exploration des valeurs fondamentales qui définissent un vrai héros.
+                </p>
+            </li>
+            </div>
+            <div id="Vinland" class="tabcontent">
+            <li class="anime">
+                <a href="https://fr.wikipedia.org/wiki/Vinland_Saga"><img src="images/vinland_saga.webp" alt="Vinland Saga" ></a>
+                <h3>Vinland Saga</h3>
+                <p> Vinland Saga transporte les spectateurs à l'époque brutale des <span class = "genres">Vikings</span>, offrant une saga épique centrée sur Thorfinn, un jeune guerrier dont la vie est profondément marquée par la vengeance.
+                    L'histoire débute avec l'assassinat du père de Thorfinn, Thors, un ancien guerrier légendaire qui aspire désormais à une vie paisible.
+                    Cependant, le destin en décide autrement, forçant Thorfinn à s'engager dans une quête vengeresse qui le conduit au cœur de conflits violents et d'intrigues politiques complexes.</p>
+
+                <p> La série explore la psychologie de Thorfinn, alors qu'il évolue dans un monde brutal où les notions de loyauté, de pouvoir et de liberté sont mises à l'épreuve.
+                    Les thèmes de la <span class = "themes">vengeance</span> et de la <span class = "themes">rédemption</span> sont habilement tissés dans l'intrigue, créant une histoire riche et émotionnellement poignante.</p>
+                    
+                <p> Vinland Saga se distingue par son attention méticuleuse aux détails historiques, transportant le public dans l'univers réaliste des Vikings. Les batailles épiques,
+                    les personnages complexes et les <span class = "themes">dilemmes moraux</span> ajoutent une profondeur captivante à cette saga, faisant de cette série un incontournable pour les amateurs d'<span class = "genres">histoire</span>, d'<span class = "genres">action</span> et de <span class = "genres">drame</span>.</p>
+                <h4>Egalement petite préférance pour celui-là 👀</h4>
+            </li>
+            </div>
+        </ul>
+    </section>
+
+    <footer class = "footer">
+        <nav>
+            <ul>
+                <li><a class = "pages" href="accueil.html">Accueil</a></li>
+                <li><a class = "pages" href="top_trois.html">Top 3</a></li>
+                <li><a class = "pages" href="top_un.html">Top 1</a></li>
+                <li><a class = "pages" href="a_propos.html">À propos</a></li>
+            </ul>
+        </nav>
+        <br/>
+        <br/>
+        <button id = "dark" onclick="darkMode()">light mode</button>
+    </footer>
+    <script src="top_deux.js"></script>
+</body>
+</html>

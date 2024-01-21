@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-image: url(images/plein.jpg);
+    font-size: x-large;
+    text-transform: uppercase;
+    -webkit-text-stroke: #333 2px;
+    color: rgb(255, 255, 0)  ;
+    padding: 4em;
+    text-align: center;
+
+}
+section{
+    border: lightyellow 2px solid;
+    padding: 20px;
+}
+
+img{
+    max-height: 200px;
+    width: 10%;
+} 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.main-content {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.anime-list {
+    color: black;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.dm-anime {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+#tvtime{
+    color: rgba(255, 255, 0, 0.884);
+}
+
+
+.genres{
+    color: rgba(255, 0, 0, 0.575)
+}
+
+.themes{
+    color: rgba(0, 0, 255, 0.695);
+}
+#form{
+    color: violet;
+}
+
+.dm{
+    background-image: url(images/background.jpg);
+    color: aliceblue;
+    border: lightyellow 2px solid;
+}
+
+.lm{
+    background-color: aliceblue;
+    color: black;
+    border: #333 2px solid;
+}
+
+.footer {
+    border: lightyellow 2px solid;
+    background-color: #333;
+    padding: 1em;
+}
+
+.lm-footer{
+    background-color: rgb(244, 231, 213);
+    border: #333 2px solid;
+    padding: 1em;
+}
+
+.pages{
+    font-size: x-large;
+    color: lightyellow;
+}
+
+.lm-pages{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+}
+
+.lm-anime {
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #a7a7a7  ;
+    border-radius: 50px;
+}
+
+/*-------------------------------*/
+
+.tab {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+li{
+  padding: 10px;
+}
+
+.tab button {
+  background-color: inherit;
+  float:none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 4em;
+  padding-right: 4em;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+.tabcontent {
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
